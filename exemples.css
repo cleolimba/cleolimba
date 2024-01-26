@@ -1,0 +1,146 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* .identification {
+    display: flex;
+} */
+.header {
+    /* position: fixed; */
+    padding: 20px 60px 0px 60px ;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.name {
+    text-decoration: none;
+    color: black;
+}
+.btn10 {
+    background-color: transparent;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0px;
+    padding: 0px 0.5em;
+    margin-bottom: 3px;
+    color: black;
+}
+.btn20 {
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0px;
+    padding:0px 0.5em;
+    margin-bottom: 3px;
+    color: black;
+}
+.btn30 {
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0px;
+    padding: 0px 0.5em;
+    margin-bottom: 3px;
+    color: black;
+}
+/* div {
+    margin-top: 50%;
+} */
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.pro{
+    padding-left: 70px;
+    padding-top: 40px;
+}
+
+.btn10, .btn20, .btn30 {
+    display: inline-block;
+    margin: 0 2%;
+}
+.btn10, .btn20 {
+    border-right: 1px solid black;
+}
+
+#doc_nom {
+    padding: 20px 60px 0px 60px ;
+}
+
+#doc_img, #form_img{
+    /*width: 0px;
+    height: 0px;
+    margin: 0% 0% 0% 10%;*/
+    padding-left: 700px;
+    padding-bottom: 50px;
+}
+
+#portf_img {
+    padding-left: 700px;
+    padding-bottom: 50px;
+}
+#footer {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5px;
+    padding-right: 70px;
+}
+hr {
+    border-bottom: 1px solid black;
+    width: 85%;
+}
+.facebook {
+    text-decoration: none;
+    color: black;
+}
+.twitter {
+    text-decoration: none;
+    color: black;
+}
+.instagram {
+    text-decoration: none;
+    color: black;
+}
+.linkedin {
+    text-decoration: none;
+    color: black;
+}
+.bcl {
+    font-size: 12px;
+    padding: 0px 0.5em;
+}
+.tel {
+    text-decoration: none;
+    color: black;
+}
+.email {
+    text-decoration: none;
+    color: black;
+}
+.formfor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#form_text {
+    padding: 20px 60px 0px 60px ;
+}
+
+#portf_text {
+    padding: 20px 60px 0px 60px ;
+}
+
+
+/*.doct_img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: bottom right;
+    background-image: url(docteurN.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    clear: left;
+}*/

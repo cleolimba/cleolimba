@@ -1,0 +1,185 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.identification {
+    display: flex;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.name {
+    text-decoration: none;
+    color: black;
+}
+.btn10 {
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0px;
+    padding: 0px 0.5em;
+    margin-bottom: 6px;
+    color: black;
+}
+.btn20 {
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0px;
+    padding:0px 0.5em;
+    margin-bottom: 6px;
+    color: black;
+}
+.btn30 {
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0px;
+    padding: 0px 0.5em;
+    margin-bottom: 6px;
+    color: black;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}
+.btn10, .btn20, .btn30 {
+    display: inline-block;
+    margin: 0 2%;
+}
+.btn10, .btn20 {
+    border-right: 1px solid black;
+}
+.name {
+    margin-right: 500px;
+    margin-left: 30px;
+}
+.img {
+    margin-top: 150px;
+    margin-left: 300px;
+}
+.png { /* la taille de ma photo */
+    border-radius: 50%;
+    padding: 1px;
+    width: 284px;
+    height: 284px;
+    outline: 1px ridge rgb(255, 254, 255);
+    background-color: gray;
+    filter: grayscale(100%);
+}
+.section_hello { /* partie_hello */
+    position: absolute;
+    top: 170px;
+    color: #080808;
+    margin: auto;
+    text-align: justify;
+    margin-left: 650px;
+    margin-right: 300px;
+}
+#hello {
+    display: inline;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+#apropos {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+#monparagraph {
+    font-size: 0.9rem;
+    font-weight: lighter;
+    line-height: 20pt;
+    margin-top: 7px;
+    margin-right: 100px;
+}
+.btn1 {/*bouton*/
+    background-color: yellow;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 60%;
+    padding: 5.5% 2em;
+    margin-bottom: 15px;
+    color: black;
+    font-size: 14px;
+    border: 1px solid #080808;
+}
+.btn2 {
+    background-color: red;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 60%;
+    padding: 5.5% 2em;
+    margin-bottom: 15px;
+    color: black;
+    font-size: 14px;
+    border: 1px solid #080808;
+}
+.btn3 {
+    background-color: skyblue;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 5.5% 2em;
+    margin-bottom: 15px;
+    color: black;
+    font-size: 14px;
+    border: 1px solid #080808;
+}
+.btn1, .btn2, .btn3 {
+    display: inline-block;
+    margin: 0 2%;
+}
+#footer {
+    display: flex;
+    justify-content: space-around;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 92%;
+    height: 30px;
+}
+hr {
+    border-bottom: 1px solid black;
+    width: 85%;
+}
+.facebook {
+    text-decoration: none;
+    color: black;
+}
+.twitter {
+    text-decoration: none;
+    color: black;
+}
+.instagram {
+    text-decoration: none;
+    color: black;
+}
+.linkedin {
+    text-decoration: none;
+    color: black;
+}
+.bcl {
+    font-size: 12px;
+    padding: 0px 0.5em;
+}
+.tel {
+    text-decoration: none;
+    color: black;
+}
+.email {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,107 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+h2 {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 3em;
+}
+h3 {
+    padding: 0;
+    margin-top:  1px;
+    margin-bottom: 1px;
+    text-align: center;
+    padding-top: 16px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.helloword {
+    position: absolute;
+    top: 170px;
+    margin: auto;
+    text-align: justify;
+    margin-left: 650px;
+    margin-right: 300px;
+}
+
+alignLefte {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding-top: 12px;
+    
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+    text-align: center;
+    text-align: justify;
+    padding-top: 11px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* *********************** MISE EN FORME ************************* */
+
+nav {
+    overflow: hidden;
+    background-color: white;
+    position: initial;
+    width: 100%;
+    opacity: 0.9;
+}
+header li {
+    float: right;
+    font-size: 1.2em;
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+#logo {
+    font-family: 'Dancing script', cursive;
+    font-weight: bold;
+    float: left;
+}
+#helloword {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
+
+
+/* ******************** IMAGE PRINCIPALE ********************* */
+
+.imagePrincipale{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 100px;
+    align-items: left;
+}
+img {
+   width: 284px;
+   height: 284px;
+   left: 219px;
+   align-self: left;
+   outline: 1px ridge rgb(255, 254, 255);
+   border-radius: 50%;
+   background-color: grey;
+   filter: grayscale(100%);
+   margin-left: 300px;
+   padding: 1px;
+   object-fit: fill;
+}
+/* ******************** PIED DE PAGE ******************* */
+

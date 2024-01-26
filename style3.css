@@ -1,0 +1,93 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.identification {
+    display: flex;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.name {
+    text-decoration: none;
+    color: black;
+}
+.btn10 {
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0px;
+    padding: 0px 0.5em;
+    margin-bottom: 6px;
+    color: black;
+}
+.btn20 {
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0px;
+    padding:0px 0.5em;
+    margin-bottom: 6px;
+    color: black;
+}
+.btn30 {
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0px;
+    padding: 0px 0.5em;
+    margin-bottom: 6px;
+    color: black;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}
+.btn10, .btn20, .btn30 {
+    display: inline-block;
+    margin: 0 2%;
+}
+.btn10, .btn20 {
+    border-right: 1px solid black;
+}
+.name {
+    margin-right: 500px;
+    margin-left: 30px;
+}
+.submit {
+    margin: 60px 0px 0px 20px;
+    width: 120px;
+    height: 120px;
+    background-color: orange;
+    font-size: 20px;
+    font-size: bolder;
+    border-radius: 50%;
+    color: black;
+    border: 1px solid #080808;
+}
+.nom, .nom1{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.nom{
+    margin-right: 5%;
+}
+.form {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 2% 10% 6% 10%;
+    margin-top: 150px;
+}
+textarea {
+    resize: none;
+}

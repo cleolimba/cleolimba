@@ -1,0 +1,155 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.experience {
+    width: auto;
+    padding: 0px 0.5em;
+    color: black;
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: 0;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-top: 10%;
+    margin-left:10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    line-height: normal;
+
+}
+.name {
+    margin-right: 500px;
+    margin-left: 0px;
+    text-decoration: none;
+    color: black;
+}
+.identification {
+    display: flex;
+}
+.btn10 {
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0px;
+    padding: 0px 0.5em;
+    margin-bottom: 6px;
+    color: black;
+}
+.btn20 {
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0px;
+    padding:0px 0.5em;
+    margin-bottom: 6px;
+    color: black;
+}
+.btn30 {
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 0px;
+    padding: 0px 0.5em;
+    margin-bottom: 6px;
+    color: black;
+}
+.btn10, .btn20, .btn30 {
+    display: inline-block;
+    margin: 0 2%;
+    margin-top: 30%;
+}
+.btn10, .btn20 {
+    border-right: 1px solid black;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 10;
+    bottom: auto;
+    right: 10;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 20px 10px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.profexper {
+    width: auto;
+    padding: 0px 0.5em;
+    color: black;
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: 0;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-top: 0%;
+    margin-left:10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    line-height: normal;
+}
+.Langues {
+    width: auto;
+    padding: 0px 0.5em;
+    color: black;
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: 0;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-top: 0%;
+    margin-left:10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    line-height: normal;
+}
+hr {
+    border-bottom: 1px solid black;
+    width: 80%;
+}
+#footer {
+    display: flex;
+    justify-content: space-around;
+}
+.facebook {
+    text-decoration: none;
+    color: black;
+}
+.twitter {
+    text-decoration: none;
+    color: black;
+}
+.instagram {
+    text-decoration: none;
+    color: black;
+}
+.linkedin {
+    text-decoration: none;
+    color: black;
+}
+.bcl {
+    font-size: 12px;
+    padding: 0px 0.5em;
+}
+.tel {
+    text-decoration: none;
+    color: black;
+}
+.email {
+    text-decoration: none;
+    color: black;
+}
+.annee {
+    margin-left: 90%;
+    text-align: left;
+}
+.anneeP {
+    margin-left: 90%;
+    text-align: left;
+}
